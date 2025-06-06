@@ -89,7 +89,7 @@ document.getElementById('numberForm').addEventListener('submit', async function(
 
 // Fungsi untuk menyimpan ke GitHub (opsional)
 async function saveToGitHub(number, name) {
-    /* 
+     
     Implementasi nyata dengan GitHub API:
     
     const token = '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';
@@ -134,7 +134,7 @@ async function saveToGitHub(number, name) {
         console.error('Error:', error);
         return false;
     }
-    */
+    
 }
 
 // Inisialisasi: Tampilkan data saat pertama kali load
