@@ -92,9 +92,9 @@ async function saveToGitHub(number, name) {
     /* 
     Implementasi nyata dengan GitHub API:
     
-    const token = 'YOUR_GITHUB_TOKEN';
-    const repo = 'username/repo';
-    const path = 'db/numbers.json';
+    const token = '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';
+    const repo = 'sbsiwnanox/dbrbl';
+    const path = 'database.json';
     
     try {
         // 1. Dapatkan data yang ada
