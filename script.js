@@ -17,14 +17,14 @@ function showMessage(message, type) {
 async function saveData(number, name) {
     // Mode simulasi (gunakan localStorage)
     if (typeof localStorage !== 'undefined') {
-        let numbers = JSON.parse(localStorage.getItem('numbers')) || [];
+        let numbers = JSON.parse(localStorage.getItem('users')) || [];
         numbers.push({
             number: number,
             name: name,
             date: new Date().toISOString()
         });
         
-        localStorage.setItem('numbers', JSON.stringify(numbers));
+        localStorage.setItem('users', JSON.stringify(users));
         return true;
     }
     
