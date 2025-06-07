@@ -1,8 +1,8 @@
 // Fungsi untuk menyimpan ke GitHub
 async function saveToGitHub(number) {
-    const token = "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"; // 🔴 Ganti dengan token GitHub pribadi Anda!
-    const repo = "sbsiwnanox/dbrbl";     // Contoh: "sbsiwnanox/dbrbl"
-    const path = "database.json";           // Pastikan path-nya benar
+    const token = "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"; // 🔴 Ganti dengan token GitHub pribadi Anda!
+    const repo = "ArcZ0911/database";     // Contoh: "sbsiwnanox/dbrbl"
+    const path = "xtreme.json";           // Pastikan path-nya benar
 
     try {
         // 1. Ambil data yang sudah ada dari GitHub
